@@ -48,7 +48,7 @@ export default class CreateDepartamento extends Component {
     return (
       <div>
         <h1>Create Departamento</h1>
-        <form >
+        <form style={{width: "500px", margin: "0 auto"}}>
 
             <label>Número: </label>
             <input style={{textAlign:"center"}} type="number" className='form-control'
